@@ -9,6 +9,9 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
 
+    env:
+      NEXT_PUBLIC_SITE_URL: "https://www.frghackers.xyz/"
+
     steps:
       - name: Get files
         uses: actions/checkout@v3
